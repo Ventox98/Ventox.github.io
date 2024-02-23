@@ -18,6 +18,8 @@
 		<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
 		<meta name="msapplication-TileColor" content="#2b5797">
 		<meta name="theme-color" content="#ffffff">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/galleria.min.js"></script>
 	</head>
 	<body class="is-preload">
 
@@ -75,6 +77,10 @@
 						<!-- Work -->
 						<article id="drilly-42">
 							<h2 class="major">Drill Y-42</h2>
+							<!-- div class="galleria">
+								<a href="/img/large1.jpg"><img src="/img/thumb1.jpg" data-title="My title" data-description="My description"></a>
+								<a href="/img/large2.jpg"><img src="/img/thumb2.jpg" data-title="Another title" data-description="My <em>HTML</em> description"></a>
+							</div -->
 							<span class="image main"><a href="https://drill.school4games.net/"><img src="images/pic03.jpg" alt="Cover of Drill Y-42" /></a></span>
 							<p>In this steampunk themed endless seeming mining simulator.</p>
 							<p>Explore a long forgotten mine and pierce your way deeper through the tunnels with a gigantic drill.<br/>
@@ -392,6 +398,12 @@ print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			<script>
+				(function() {
+					Galleria.loadTheme('https://cdnjs.cloudflare.com/ajax/libs/galleria/1.5.7/themes/classic/galleria.classic.min.js');
+					Galleria.run('.galleria');
+				}());
+			</script>
 	</body>
+
 </html>
