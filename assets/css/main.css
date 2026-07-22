@@ -709,6 +709,19 @@ input, select, textarea {
 			.image.main img {
 				width: 100%;
 			}
+		
+		.image.secondary {
+			display: block;
+			margin: 0.5rem auto;
+			width: 65%;
+			border: 2px;
+			border-style: solid;
+			border-color: #ffffff;
+		}	
+
+			.image.secondary img {
+				width: 100%;
+			}
 
 		@media screen and (max-width: 736px) {
 
