@@ -712,12 +712,13 @@ input, select, textarea {
 		
 		.image.secondary {
 			display: block;
-			margin: 0.5rem auto;
-			width: 65%;
+			margin: 0.25rem 0;
+			width: 100%;
 			border: 2px;
 			border-style: solid;
 			border-color: #ffffff;
 		}	
+
 
 			.image.secondary img {
 				width: 100%;
